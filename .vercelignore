@@ -1,0 +1,30 @@
+# Data files and directories
+downloads/
+*.json
+!vercel.json
+
+# Python scripts not needed for deployment
+1_discourse_download.py
+2_tds_website_download.py
+3_discourse_clean_summary.py
+4_RAG_Process.py
+
+# Development files
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Git files
+.git
+.github
+.gitignore
+
+# Other files
+*.log
+.DS_Store
+.cursorignore 
